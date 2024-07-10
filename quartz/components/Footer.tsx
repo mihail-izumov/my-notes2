@@ -14,10 +14,6 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-        </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
@@ -25,6 +21,10 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
+        <p>
+        © 2012 – 2024 ООО "Секвой Груп" | Сделано на Станкозаводе в Самаре <br />
+        Все права Защищены.
+        </p>
       </footer>
     )
   }
