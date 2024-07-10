@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Чудесная Гостиная Модуля Роста™",
+    pageTitle: "Чудесная Гостиная",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
